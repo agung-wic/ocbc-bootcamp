@@ -6,3 +6,4 @@ Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
     <br />c. Create console application with C# language and run it with Mono SDK.
 
 2. Session 2:
+    <br /> learn about the basics of C#, such as data types, variables, arithmetic operators, assignment operators, logical operators, assignment operators and others.

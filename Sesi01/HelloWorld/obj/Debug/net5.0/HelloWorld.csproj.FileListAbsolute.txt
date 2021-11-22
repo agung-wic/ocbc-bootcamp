@@ -1,0 +1,16 @@
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.exe
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.deps.json
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.json
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.dev.json
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.dll
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\ref\HelloWorld.dll
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\bin\Debug\net5.0\HelloWorld.pdb
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.AssemblyReference.cache
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfoInputs.cache
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfo.cs
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.dll
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\ref\HelloWorld.dll
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.pdb
+c:\Users\Agung Wicaksono\Documents\ocbc-bootcamp\Sesi1\HelloWorld\obj\Debug\net5.0\HelloWorld.genruntimeconfig.cache

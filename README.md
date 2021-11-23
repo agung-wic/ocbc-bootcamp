@@ -10,3 +10,6 @@ Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
 
 3. Session 3 :
     <br /> learn about c# programming logic
+
+4. Session 4 :
+    <br /> learn about C# Data, array, and string.

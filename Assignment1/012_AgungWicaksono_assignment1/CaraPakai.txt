@@ -1,0 +1,7 @@
+Cara Penggunaan Program :
+
+1. Buka Command Prompt pada windows dan arahkan direktori ke direktori file tersebut berada.
+2. Compile file dengan extensi .cs dengan menggunakan perintah "csc $namFile"
+3. Run hasil compile dengan menggunakan "mono $namaFile.exe"
+4. Terdapat 7 Menu di dalam program tersebut, masukkan angka menu yang dipilih.
+5. Ikuti Intruksi yang terdapat pada console.

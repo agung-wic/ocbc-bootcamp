@@ -7,3 +7,6 @@ Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
 
 2. Session 2:
     <br /> learn about the basics of C#, such as data types, variables, arithmetic operators, assignment operators, logical operators, assignment operators and others.
+
+3. Session 3 :
+    <br /> learn about c# programming logic

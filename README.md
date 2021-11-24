@@ -1,4 +1,4 @@
-Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
+<h3>Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2</h3>
 
 1. Session 1:
     <br />a. Instaltaion .NET SDK, .NET Runtime, Mono SDK VSCode and setting the extension.
@@ -17,3 +17,6 @@ Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
 
 5. Sesion 5 :
     <br /> learn about C# OOP, Inheritance, Overloading, dan Overriding.
+
+6. Session 6: 
+    <br /> learn about basic sql server and its query.

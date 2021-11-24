@@ -20,9 +20,9 @@ namespace Program5
             Override over = new Override();
             over.Bilangan(bil1, bil2);
             over.PenjumlahanPerkaliandll();
-            Program over2 = new Program();
-            over2.Bilangan(bil1, bil2);
-            over2.PenjumlahanPerkaliandll();
+            over = new Program();
+            over.Bilangan(bil1, bil2);
+            over.PenjumlahanPerkaliandll();
         }
     }
 }

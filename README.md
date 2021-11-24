@@ -14,3 +14,6 @@ Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2
 4. Session 4 :
     <br /> learn about C# Data, array, and string.
     <br /> do assignments 1.
+
+5. Sesion 5 :
+    <br /> learn about C# OOP, Inheritance, Overloading, dan Overriding.

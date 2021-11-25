@@ -21,3 +21,9 @@
 6. Session 6: 
     <br /> learn about basic sql server and its query.
     <br /> do assignment 2.
+
+7. Session 7: 
+    <br /> learn learn to make login and register system with windows form using .net framework and mysql database.
+
+8. Session 8:
+    <br /> learn about the basic concepts of API.

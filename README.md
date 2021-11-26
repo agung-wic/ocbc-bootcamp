@@ -30,3 +30,7 @@
 
 9. Session 9:
     <br /> learn about rest api with .net core web API
+
+10. Session 10: 
+    <br /> learn using JWT in rest api
+

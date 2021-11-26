@@ -27,3 +27,6 @@
 
 8. Session 8:
     <br /> learn about the basic concepts of API.
+
+9. Session 9:
+    <br /> learn about rest api with .net core web API

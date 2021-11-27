@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "f32fd881-636a-4f86-aea3-b973ff131e0f",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44356/api/employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44356/api/employee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"employee"
+					]
+				},
+				"description": "this endpoint to display all data"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44356/api/employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"Rengga Kurniawan\",\r\n    \"jenisKelamin\": \"Laki-laki\",\r\n    \"alamat\": \"Cibitung\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/employee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"employee"
+					]
+				},
+				"description": "this endpoint to add data"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44356/api/employee/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 8,\r\n    \"nama\": \"Agustin\",\r\n    \"jenisKelamin\": \"Perempuan\",\r\n    \"alamat\": \"Bogor\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/employee/8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"employee",
+						"8"
+					]
+				},
+				"description": "this endpoint to edit data"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44356/api/employee/12",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44356/api/employee/12",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"employee",
+						"12"
+					]
+				},
+				"description": "this endpoint to delete data"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44356/api/employee/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44356/api/employee/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"employee",
+						"7"
+					]
+				},
+				"description": "this endpoint to show data base on id"
+			},
+			"response": []
+		}
+	]
+}

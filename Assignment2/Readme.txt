@@ -1,0 +1,1 @@
+Assignment 2 is on the sesi06 folder

@@ -1,0 +1,371 @@
+{
+	"info": {
+		"_postman_id": "3697f29d-9372-4237-bb28-1ba6304d9838",
+		"name": "Movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/api/movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Interstellar\",\r\n    \"genre\": \"Sci-fi/Adventure\",\r\n    \"duration\": \"2h 49 mins\",\r\n    \"releaseDate\": \"2014-11-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/movie",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"movie"
+					]
+				},
+				"description": "This endpoint to create new data"
+			},
+			"response": [
+				{
+					"name": "https://localhost:5001/api/movie",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Interstellar\",\r\n    \"genre\": \"Sci-fi/Adventure\",\r\n    \"duration\": \"2h 49 mins\",\r\n    \"releaseDate\": \"2014-11-06\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/movie",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"movie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 15:25:17 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 0,\n    \"name\": \"Interstellar\",\n    \"genre\": \"Sci-fi/Adventure\",\n    \"duration\": \"2h 49 mins\",\n    \"releaseDate\": \"2014-11-06\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:5001/api/movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/movie",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"movie"
+					]
+				},
+				"description": "This endpoint to show all data"
+			},
+			"response": [
+				{
+					"name": "https://localhost:5001/api/movie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/movie",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"movie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 15:32:20 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Bad Boys for Life\",\n        \"genre\": \"Action/Comedy\",\n        \"duration\": \"2h 5 mins\",\n        \"releaseDate\": \"23/01/2020 00:00:00\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"John Wick\",\n        \"genre\": \"Action/Thriller\",\n        \"duration\": \"1h 41 mins\",\n        \"releaseDate\": \"24/10/2014 00:00:00\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"The Martian\",\n        \"genre\": \"Si-fi/Drama\",\n        \"duration\": \"2h 31 mins\",\n        \"releaseDate\": \"02/10/2015 00:00:00\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"How to Train Your Dragon: The Hidden World\",\n        \"genre\": \"Animation/Family\",\n        \"duration\": \"1h 45 mins\",\n        \"releaseDate\": \"23/01/2020 00:00:00\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Interstellar\",\n        \"genre\": \"Sci-fi/Adventure\",\n        \"duration\": \"2h 49 mins\",\n        \"releaseDate\": \"06/11/2014 00:00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:5001/api/movie/4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Snowden\",\r\n    \"genre\": \"Action/Spy\",\r\n    \"duration\": \"2h 14 mins\",\r\n    \"releaseDate\": \"2016-10-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/movie/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"movie",
+						"5"
+					]
+				},
+				"description": "This endpoint to edit/update data based on id"
+			},
+			"response": [
+				{
+					"name": "https://localhost:5001/api/movie/4",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Snowden\",\r\n    \"genre\": \"Action/Spy\",\r\n    \"duration\": \"2h 14 mins\",\r\n    \"releaseDate\": \"2016-10-06\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/movie/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"movie",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 15:34:17 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 5,\n    \"name\": \"Snowden\",\n    \"genre\": \"Action/Spy\",\n    \"duration\": \"2h 14 mins\",\n    \"releaseDate\": \"2016-10-06\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:5001/api/movie/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/movie/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"movie",
+						"4"
+					]
+				},
+				"description": "this endpoint to show data based on id"
+			},
+			"response": [
+				{
+					"name": "https://localhost:5001/api/movie/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/movie/4",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"movie",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 15:41:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"name\": \"How to Train Your Dragon: The Hidden World\",\n        \"genre\": \"Animation/Family\",\n        \"duration\": \"1h 45 mins\",\n        \"releaseDate\": \"23/01/2020 00:00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:5001/api/movie/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/movie/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"movie",
+						"5"
+					]
+				},
+				"description": "this endpoint to delete one of data base on its id"
+			},
+			"response": [
+				{
+					"name": "https://localhost:5001/api/movie/3",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/movie/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"movie",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 15:38:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "\"Success delete 5\""
+				}
+			]
+		}
+	]
+}

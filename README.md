@@ -33,4 +33,3 @@
 
 10. Session 10: 
     <br /> learn using JWT in rest api
-

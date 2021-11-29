@@ -1,13 +1,17 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TodoApp.Data;
-using TodoApp.Models;
+using TodoAppWithJWT.Data;
+using TodoAppWithJWT.Models;
 
-namespace TodoApp.Controllers
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+
+namespace TodoAppWithJWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class TodoController : ControllerBase
     {
         private readonly ApiDbContext _context;
@@ -76,7 +80,7 @@ namespace TodoApp.Controllers
 
             if (existItem == null)
                 return NotFound();
-            
+
             _context.Items.Remove(existItem);
             await _context.SaveChangesAsync();
 
@@ -85,9 +89,7 @@ namespace TodoApp.Controllers
 
         [Route("TestRun")]
         [HttpGet]
-
-        public ActionResult TestRun()
-        {
+        public ActionResult TestRun(){
             return Ok("Success");
         }
     }

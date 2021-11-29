@@ -69,7 +69,7 @@ namespace TodoAppWithJWT.Controllers
 
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(existItem);
 
         }
 
@@ -84,7 +84,7 @@ namespace TodoAppWithJWT.Controllers
             _context.Items.Remove(existItem);
             await _context.SaveChangesAsync();
 
-            return Ok(existItem);
+            return new JsonResult("Success Delete " + id) { StatusCode = 200 };
         }
     }
 }

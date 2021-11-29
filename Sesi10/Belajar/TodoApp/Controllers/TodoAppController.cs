@@ -80,7 +80,7 @@ namespace TodoApp.Controllers
             _context.Items.Remove(existItem);
             await _context.SaveChangesAsync();
 
-            return Ok(existItem);
+            return new JsonResult("Success Delete"+ id) {StatusCode=200};
         }
 
         [Route("TestRun")]

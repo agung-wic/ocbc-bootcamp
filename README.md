@@ -33,3 +33,6 @@
 
 10. Session 10: 
     <br /> learn using JWT in rest api
+
+11. Session 11:
+    <br /> learn about refresh token in rest api

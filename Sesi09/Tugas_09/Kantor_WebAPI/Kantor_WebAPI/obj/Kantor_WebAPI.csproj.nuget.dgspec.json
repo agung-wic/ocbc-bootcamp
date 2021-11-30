@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj": {}
+    "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj": {
+    "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
         "projectName": "Kantor_WebAPI",
-        "projectPath": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
+        "projectPath": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
         "packagesPath": "C:\\Users\\Agung Wicaksono\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi09\\Tugas_09\\Kantor_WebAPI\\Kantor_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agung Wicaksono\\AppData\\Roaming\\NuGet\\NuGet.Config",

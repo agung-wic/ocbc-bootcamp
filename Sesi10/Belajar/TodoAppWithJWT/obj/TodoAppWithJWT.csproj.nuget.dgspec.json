@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {}
+    "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {
+    "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
+        "projectUniqueName": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
         "projectName": "TodoAppWithJWT",
-        "projectPath": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
+        "projectPath": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
         "packagesPath": "C:\\Users\\Agung Wicaksono\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Agung Wicaksono\\Documents\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\obj\\",
+        "outputPath": "C:\\Users\\Agung Wicaksono\\OneDrive\\Dokumen\\ocbc-csharp-batch2\\Sesi10\\Belajar\\TodoAppWithJWT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agung Wicaksono\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -36,3 +36,11 @@
 
 11. Session 11:
     <br /> learn about refresh token in rest api
+
+12. Session 12:
+    <br /> learn about unit testing
+
+13. Session 13:
+    <br />
+
+    docker run -d -p 5000:80 --name myapp corewebapi-sample:dev

@@ -1,0 +1,14 @@
+1. Response pada insert, update, delete dan get data by id berupa object dengan format sebagai berikut:
+	{
+	"success": {true/false},
+	"method": "{insert/update/delete/search}"
+	"data": {
+			"id": "{id}",
+			"cardOwnerName": "{name}",
+			"cardNumber": "{number}",
+			"expirationDate": "{date}",
+			"securityCode": "{code}"
+		}
+	"error": "{error}"
+	}
+2. Menambahkan start page dengan index.html, sebagai informasi singkat penggunaan Rest Payment API

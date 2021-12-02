@@ -1,5 +1,5 @@
 <h2>Bank OCBC NISP Bootcamp for Full Stack Developer with Hactiv8 Batch 2</h2>
-<ul>
+<ol>
     <li> Session 1:
         <br />a. Instaltaion .NET SDK, .NET Runtime, Mono SDK VSCode and setting the extension.
         <br />b. Create console application with "dotnet new console" and run it with "dotnet run".
@@ -52,4 +52,4 @@
     <li> Session 16:
         <br /> showcase the final project
     </li>
-</ul>
+</ol>
